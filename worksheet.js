@@ -54,6 +54,31 @@ if (randomNumber >= 0 && randomNumber <= 2) {
     console.log("hello");
     console.log("goodbye");
   }
+
+  //FUNCTIONS SECTIONS - task one
+  function printMovieName(userInput){
+  let favoriteMovie = userInput;
+  console.log(favoriteMovie);}
   
+  let myInput = printMovieName("tarzan");
   
+  //FUNCTIONS SECTIONS - task two
+  function printFavoriteBand(){
+    let band = (prompt("What is your favorite band?"));
+    return band;
+  }
+  let bandInput = printFavoriteBand();
+  console.log(bandInput);
+
+  //FUNCTIONS SECTIONS - task three
+  function concertDisplay(musicalAct) {
+    let myStreet = prompt("Enter the street you live on");
+    console.log(`It would be great if ${musicalAct} played a show on ${myStreet}!`);
+  }
+  concertDisplay("Hamilton");
+  
+
+
+
+
   
