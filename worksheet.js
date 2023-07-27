@@ -38,5 +38,22 @@ if (randomNumber >= 0 && randomNumber <= 2) {
   } else if (randomNumber === 9 || randomNumber === 10) {
     console.log("Hendrix");
   }
-  
+
   //FOR LOOPS - task one
+  for (let i = 0; i < 7; i++) {
+    console.log("JavaScript is cool!");
+  }
+
+  //FOR LOOPS - task two 
+  for (let i = 0; i <= 10; i++) {
+    console.log(i);
+  }
+
+  //FOR LOOPS - task three
+  for (let i = 0; i < 5; i++) {
+    console.log("hello");
+    console.log("goodbye");
+  }
+  
+  
+  
