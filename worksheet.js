@@ -77,6 +77,16 @@ if (randomNumber >= 0 && randomNumber <= 2) {
   }
   concertDisplay("Hamilton");
   
+  //ARRAYS SECTION = task one
+  let desktopItems = ['desk', 'lamp', 'computer'];
+  console.log(desktopItems[1]);  // This will print 'lamp'
+  desktopItems.push('Infinity Gauntlet');
+  for (let i = 0; i < desktopItems.length; i++) {
+    console.log(desktopItems[i]);
+  }
+  
+
+
 
 
 
